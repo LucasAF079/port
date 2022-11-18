@@ -1,0 +1,102 @@
+body{
+    background-color:#c7c7c7a1;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    margin: 0;
+}
+
+.area-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    align-items: center;
+}
+
+.login > h1{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0168A7;
+    border-radius:10px;
+    width: 210px;
+    height: 350px;
+    padding: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding-top: 60px;
+    box-shadow: 0px 8px 15px;
+}
+
+.login form{
+    display: flex;
+    width: 115%;
+    flex-direction: column;
+    color: white;
+    padding-top: 15px;
+}
+
+.login input{
+    background-color:#ffffff;
+    padding-left: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    height: 40px;
+    outline-color: #fc7e00;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #000;
+}
+
+#icon{
+    position: relative;
+    top: -21px;
+    right: -205px;
+    transform: translateY(-50%);
+    background: url('./img/mostrar-senha.png');
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+#icon.hide{
+    background: url('./img/esconder-senha.png');
+    background-size: cover;
+}
+
+.login img{
+    width: 65px;
+    height: auto;
+}
+
+.input::placeholder{
+    color: black;
+    font-size: 14px;
+}
+
+form [type="submit"]{
+    display: block;
+    background-color:#FC7E00;
+    margin-top: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo-port{
+    position: absolute;
+    top: 650px;
+
+}
+
+
